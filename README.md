@@ -5,7 +5,7 @@ Sentiment analysis is a natural language processing (NLP) algorithm to identify,
 # Data Collection
 The data was collected from the twitter using tweepy, a python library for accessing twitter API. About 5000 tweets were collected from 6th of August 2022 when the premier league started using the keyword 'EPL'. 
 # Data Cleaning
-The data was cleaned, removing unwanted text, symbols and punctuations. Duplicates was also dropped and this reduced the number of tweets to 2717 from 5000
+The data was cleaned, removing unwanted text, symbols and punctuations. Duplicates was also dropped and this reduced the number of tweets to about 3293 from 5000
 # Exploratory Data Analysis
 EDA was done using pandas, matplotlib, wordcloud. From the EDA, the Subjectivity (i.e how subjective each tweet is and the polarity of each tweet was gotten.
 A wordcloud showing the distribution of sentiment was also plotted
